@@ -13,12 +13,12 @@ import ProductDetailStorage from "./ProductDetailStorage.js";
 
 export default function ProductDetails(props) {
   const [product, setProduct] = useState({});
-  const { get } = useFetch("https://react-tutorial-demo.firebaseio.com/");
+  const { get } = useFetch("http://localhost:8001/"); 
   const params = useParams();
   const match = useRouteMatch();
 
   useEffect(() => {
-    get(`productinfo/id${params.id}.json`)
+    get(`supermarket/${params.id}`)//`productinfo/id${params.id}`) //.json`)//
       .then((data) => {
         setProduct(data);
       })
