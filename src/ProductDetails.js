@@ -13,7 +13,7 @@ import ProductDetailStorage from "./ProductDetailStorage.js";
 
 export default function ProductDetails(props) {
   const [product, setProduct] = useState({});
-  const { get } = useFetch("http://localhost:8001/"); 
+  const { get } = useFetch("https://my-json-server.typicode.com/mattszczerba/ReactStore/db"); //"http://localhost:8001/"); 
   const params = useParams();
   const match = useRouteMatch();
 
