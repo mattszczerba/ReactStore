@@ -6,7 +6,7 @@ export default function About() {
       <div>
         <h1>About Us</h1>
         <p>
-          We started operations in 2020. We guarantee fresh produce.
+          We started operations in 2022. We guarantee fresh produce.
           <br />
           Save time by shopping on our app and we'll deliver the products right
           to your home. <br />
@@ -14,7 +14,7 @@ export default function About() {
         </p>
       </div>
       <img
-        src="https://res.cloudinary.com/dbfn5lnvx/image/upload/q_auto,w_550/v1607770215/react-tutorial/supermarket/about.jpg"
+        src="https://res.cloudinary.com/dow8www4d/image/upload/v1642611366/Store/about.jpg"
         height="275"
         width="183"
         className="rounded"

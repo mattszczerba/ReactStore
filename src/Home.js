@@ -15,7 +15,7 @@ export default function Home() {
         </Link>
       </div>
       <img
-        src="https://res.cloudinary.com/dbfn5lnvx/image/upload/q_auto,w_700/v1607770215/react-tutorial/supermarket/home.jpg"
+        src="https://res.cloudinary.com/dow8www4d/image/upload/v1642612363/Store/home.jpg"
         width="350"
         height="240"
         className="rounded home-image"
