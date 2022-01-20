@@ -6,7 +6,8 @@ import Loader from "./Loader.js";
 export default function Products(props) {
   const [products, setProducts] = useState([]);
   const { get, loading } = useFetch(
-    "https://my-json-server.typicode.com/mattszczerba/ReactStore/db" //"http://localhost:8001/"
+    "https://my-json-server.typicode.com/mattszczerba/ReactStore/"
+    // "http://localhost:8001/"
   );
 
   useEffect(() => {
