@@ -7,7 +7,7 @@ export default function Home() {
       <div>
         <h1>Online shopping simplified</h1>
         <p>
-          Order your groceries from <em>SuperM</em> with our easy to use app,
+          Order your groceries from <em>MattMart</em> with our easy to use mock shopping app,
           and get your products delivered straight to your doorstep.
         </p>
         <Link to="/products" className="btn btn-default">

@@ -105,6 +105,9 @@ export default function Cart({ cart }) {
                 required
               />
               <Button type="submit">Pay</Button>
+              <div><em>Note: This is a mock payment. 
+                <br/ >
+                For transaction on next page, use credit card: 4242 4242 4242 4242</em></div>
             </form>
           </>
         )}
